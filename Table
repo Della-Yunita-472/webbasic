@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Latihan</title>
+</head>
+<body>
+
+<h1>Table</h1>
+
+<form>
+    <p>Nama:</p>
+    <input type="text">
+    <p>Kelompok</p>
+    <input type="radio" name="Kelompok" id="Jakarta">
+    <label for="Jakarta">Jakarta</label>
+    <input type="radio" name="Kelompok" id="Surabaya">
+    <label for="Surabaya">Surabaya</label>
+    <div>
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Reset">
+</form>
+
+<br>
+
+<table border="2">
+ <tr>
+     <th>NO</th>
+     <th>Nama</th>
+     <th>Kelompok</th>
+ </tr>   
+ <tr>
+     <td>1</td>
+     <td>Della Yunita</td>
+     <td>Jakarta</td>
+ </tr>
+</table>
+
+</body>
+</html>
